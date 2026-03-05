@@ -18,4 +18,7 @@ export const router = createBrowserRouter([
       { path: "fine-sim", Component: FineSim },
     ],
   },
-]);
+], {
+  // ✨ 关键修复：在这里加上你的 GitHub Pages 基础路径
+  basename: "/Realtimeui4/" 
+});
